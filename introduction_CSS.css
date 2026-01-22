@@ -1,0 +1,50 @@
+
+img {
+    display: block;
+    margin: auto;
+    width: 20%;
+    height: 20%;
+    float: none;
+}
+
+table {
+    width: 50%;
+    margin: auto;
+}
+
+
+th, td {
+    width: 5px;
+}
+
+th {
+    text-align: left;
+    border: solid #14DEBD 5px;
+    border-radius: 10px;
+    padding: 10px;
+    outline-color: #2DBAA3;
+
+    background-color: #0AF2CC;
+}
+
+
+td {
+    text-align: left;
+    border: solid black 1px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #8FB0A8;
+}
+
+a {
+    display: flex;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color: lightgray;
+}
