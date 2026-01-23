@@ -4,9 +4,24 @@
     <meta charset="UTF-8">
     <title>Astronomy</title>
     <link rel="stylesheet" href="./astronomy_main_css.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
 </head>
 <header><h1>Astronomy</h1></header>
 <body>
+<div class="top_nav_bar">
+    <button><a href="./index.html">Main page</a></button>
+
+    <button><a href="./astronomy_main.html">Astronomy</a></button>
+
+    <button>Photography</button>
+
+    <button>Fixman</button>
+
+    <button>Traveles</button>
+
+    <button><a href="./introduction.html">About me</a></button>
+
+</div>
 <p>Page about astronomy.</p>
 
 <button type="button" class="collapsible">Open Collapsible</button>
@@ -14,20 +29,23 @@
     <p>Lorem ipsum...</p>
 </div>
 <script>
-var coll = document.getElementsByClassName("collapsible");
-var i;
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
 
-for (i = 0; i < coll.length; i++) {
-coll[i].addEventListener("click", function() {
-this.classList.toggle("active");
-var content = this.nextElementSibling;
-if (content.style.display === "block") {
-content.style.display = "none";
-} else {
-content.style.display = "block";
-}
-});
-}
+    for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+                content.style.display = "none";
+            } else {
+                content.style.display = "block";
+            }
+        });
+    }
 </script>
+<button style="border: solid black; border-radius: 10px; width: 15%; ;margin: 100px auto 200px auto ; padding: 5px">
+    <a href="https://app.astrobin.com/u/Photonyxus?i=1mvwzj#gallery">My astrophoto of Moon.</a>
+</button>
 </body>
 </html>

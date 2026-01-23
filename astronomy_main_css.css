@@ -1,8 +1,10 @@
 body {
-    background-color: lightgray;
+    background-image: url("./pexels-adam-krypel-19165796-6498990.jpg");
+    background-size: cover;
 }
 h1 {
     text-align: center;
+    font-size: 50px;
 }
 .collapsible {
     background-color: #eee;
@@ -27,4 +29,12 @@ h1 {
     display: none;
     overflow: hidden;
     background-color: #f1f1f1;
+}
+
+.top_nav_bar {
+    margin: 50px auto auto auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-decoration: none;
 }

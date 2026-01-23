@@ -1,0 +1,20 @@
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+body {
+    background-color: lightgray;
+}
+.top_nav_bar {
+    margin: 50px auto auto auto;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+a {
+    text-decoration: none;
+}
