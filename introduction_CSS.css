@@ -24,7 +24,7 @@ img {
     text-decoration: none;
     display: flex;
     justify-content: center;
-    background-color: #072859;
+    background-color: #012459;
     opacity: 75%;
 }
 
@@ -38,7 +38,7 @@ img {
 
 .top_nav_bar a:hover {
     text-decoration: none;
-    background-color: #2005b5;
+    background-color: #0344a6;
 }
 
 table {
@@ -47,7 +47,7 @@ table {
 
 th {
     text-align: center;
-    border: solid #1d4582 5px;
+    border: solid #1d4582 2px;
     border-radius: 10px;
     padding: 10px;
     outline-color: #3166b5;
