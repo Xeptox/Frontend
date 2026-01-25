@@ -31,7 +31,7 @@ h1 {
     background-color: #0344a6;
 }
 
-p {
+.content {
     text-align: center;
     font-size: 50px;
 }
