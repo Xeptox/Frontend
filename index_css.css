@@ -35,3 +35,21 @@ h1 {
     text-align: center;
     font-size: 50px;
 }
+.round_circle_background1{
+    margin: auto;
+    height: 400px;
+    width: 600px;
+    border: 1px solid #0344a6 ;
+    border-radius: 40px;
+    background-color: orangered;
+}
+.round_circle{
+    height: 200px;
+    width: 200px;
+
+    /*border: 1px solid teal;*/
+    border-top-width: 20px;
+    border-bottom-right-radius: 40px;
+    border-top-left-radius: 40px;
+    background-color: teal;
+}
