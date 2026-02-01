@@ -8,19 +8,16 @@ h1 {
 }
 
 .top_nav_bar {
-    position: relative;
-    padding: 10px;
-    font-size: 30px;
-    text-align: center;
-    text-decoration: none;
     display: flex;
     justify-content: center;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
     background-color: #012459;
     opacity: 75%;
 }
 
 .top_nav_bar a {
-    position: relative;
     text-decoration: none;
     padding: 10px 15px;
     color: black;

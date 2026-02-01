@@ -1,5 +1,6 @@
 
 body {
+    box-sizing: border-box;
     background-color: #183157;
 }
 
@@ -35,4 +36,178 @@ h1 {
 .content {
     text-align: center;
     font-size: 50px;
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg);
+    }
+    to { transform: rotate(360deg);
+    }
+}
+.Solar-system {
+    position: relative;
+    width: 800px;
+    height: 800px;
+    /*background-image: url("pexels-felix-mittermeier-956981.jpg");*/
+    /*background-size: cover;*/
+}
+
+.Sun {
+    position: absolute;
+    top: 360px;
+    left: 360px;
+    width: 80px;
+    height: 80px;
+    background-color: orange;
+    border-radius: 50%;
+}
+
+.Mercury {
+    position: absolute;
+    top: 340px;
+    left: 340px;
+    align-self: center;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    animation: spin 22s linear infinite;
+}
+
+#Mercury-in {
+    width: 10px;
+    height: 10px;
+    background-color: darkslategray;
+    border-radius: 50%;
+}
+
+.Venus {
+    position: absolute;
+    top: 330px;
+    left: 330px;
+    align-self: center;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    animation: spin 22s linear infinite;
+}
+#Venus-in {
+    width: 10px;
+    height: 10px;
+    background-color: darkslategray;
+    border-radius: 50%;
+}
+
+
+.Earth {
+    position: absolute;
+    top: 320px;
+    left: 320px;
+    align-self: center;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    animation: spin 22s linear infinite;
+}
+#Earth-in {
+    width: 10px;
+    height: 10px;
+    background-color: darkslategray;
+    border-radius: 50%;
+}
+
+.Mars {
+    position: absolute;
+    top: 310px;
+    left: 310px;
+    align-self: center;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    animation: spin 22s linear infinite;
+}
+#Mars-in {
+    width: 10px;
+    height: 10px;
+    background-color: darkslategray;
+    border-radius: 50%;
+}
+.Jupiter {
+    position: absolute;
+    top: 280px;
+    left: 280px;
+    align-self: center;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    animation: spin 22s linear infinite;
+}
+#Jupiter-in {
+    width: 10px;
+    height: 10px;
+    background-color: darkslategray;
+    border-radius: 50%;
+}
+.Saturn {
+    position: absolute;
+    top: 260px;
+    left: 260px;
+    align-self: center;
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    animation: spin 22s linear infinite;
+}
+#Saturn-in {
+    width: 10px;
+    height: 10px;
+    background-color: darkslategray;
+    border-radius: 50%;
+}
+.Uranus {
+    position: absolute;
+    top: 240px;
+    left: 240px;
+    align-self: center;
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    animation: spin 22s linear infinite;
+}
+#Uranus-in {
+    width: 10px;
+    height: 10px;
+    background-color: darkslategray;
+    border-radius: 50%;
+}
+.Neptune {
+    position: absolute;
+    top: 220px;
+    left: 220px;
+    align-self: center;
+    width: 360px;
+    height: 360px;
+    border-radius: 50%;
+    animation: spin 22s linear infinite;
+}
+#Neptune-in {
+    width: 10px;
+    height: 10px;
+    background-color: darkslategray;
+    border-radius: 50%;
+}
+.Pluto {
+    position: absolute;
+    top: 205px;
+    left: 205px;
+    align-self: center;
+    width: 390px;
+    height: 390px;
+    border-radius: 50%;
+    animation: spin 22s linear infinite;
+}
+#Pluto-in {
+    width: 10px;
+    height: 10px;
+    background-color: darkslategray;
+    border-radius: 50%;
 }
