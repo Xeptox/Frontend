@@ -1,14 +1,16 @@
 
 body {
+    position: relative;
     margin: 0;
     background-color: black;
     overflow: hidden;
+    justify-content: center;
 }
 
 .Solar-system {
     position: relative;
-    width: 100vh;
-    height: 100vh;
+    width: 110vh;
+    height: 110vh;
     display: flex;
     border: 2px solid red;
     background-color: #aeba69;
@@ -271,8 +273,8 @@ body {
 .Neptune-orbit {
     position: absolute;
     border-radius: 50%;
-    width: 560px;
-    height: 560px;
+    width: 620px;
+    height: 620px;
     align-self: center;
     justify-self: center;
     border: 1px solid deepskyblue;
@@ -281,8 +283,8 @@ body {
 
 #Neptune-planet {
     position: absolute;
-    top: 68px;
-    left: 68px;
+    top: 77px;
+    left: 77px;
     width: 23px;
     height: 23px;
     background-color: deepskyblue;
