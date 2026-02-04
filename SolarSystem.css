@@ -3,21 +3,19 @@ body {
     margin: 0;
     background-color: black;
     overflow: hidden;
-
 }
 
 .Solar-system {
     position: relative;
-    width: 860px;
-    height: 860px;
+    width: 100vh;
+    height: 100vh;
     display: flex;
     border: 2px solid red;
-    background-color: #7be8cf;
+    background-color: #aeba69;
     /*background-image: url("pexels-felix-mittermeier-956981.jpg");*/
     background-size: cover;
     justify-content: center;
     align-items: center;
-
 }
 
 .Sun {
@@ -30,199 +28,268 @@ body {
     box-shadow: 0 0 3vh white;
     align-self: center;
     justify-self: center;
-    /*z-index: 1;*/
 }
 
-.Mercury {
+.Mercury-orbit {
     position: absolute;
-    /*border-style: solid;*/
-    /*border-color: transparent transparent transparent white;*/
-    /*border-width: 0   0 1px 1px ;*/
     border-radius: 50%;
-    width: 110px;
-    height: 110px;
+    width: 120px;
+    height: 120px;
     align-self: center;
     justify-self: center;
+    border: 1px dotted black;
     animation: orbit 4.4s linear infinite;
-    /*z-index: 2;*/
+
 }
 
-.Mercury div {
-    width: 5px;
-    height: 5px;
+#Mercury-planet {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    top: 13px;
+    left: 13px;
     background-color: black;
     border-radius: 50%;
 }
 
-.Venus {
+.Venus-orbit {
     position: absolute;
-    /*border-style: solid;*/
-    /*border-color: transparent transparent transparent white;*/
-    /*border-width: 0   0 1px 1px ;*/
     border-radius: 50%;
     width: 150px;
     height: 150px;
     align-self: center;
     justify-self: center;
+    border: 1px solid yellow;
     animation: orbit 11.25s linear infinite;
-    z-index: 3;
 }
 
-.Venus div {
-    width: 20px;
-    height: 20px;
+#Venus-planet {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 14px;
+    left: 14px;
     background-color: yellow;
     border-radius: 50%;
 }
 
-.Earth {
-    position: absolute;
-    /*border-style: solid;*/
-    /*border-color: transparent transparent transparent white;*/
-    /*border-width: 0   0 1px 1px ;*/
+.Earth-orbit {
+    position: relative;
     border-radius: 50%;
-    width: 180px;
-    height: 180px;
+    width: 200px;
+    height: 200px;
     align-self: center;
     justify-self: center;
+    border: 1px dotted blue;
     animation: orbit 18.25s linear infinite;
-    z-index: 4;
 }
 
-#innerEarth {
-    width: 20px;
-    height: 20px;
+#Earth-planet {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 16px;
+    height: 16px;
     background-color: blue;
     border-radius: 50%;
 }
 
-.Moon {
+.Moon-orbit {
     position: absolute;
-    /*border-style: solid;*/
-    /*border-color: transparent transparent transparent white;*/
-    /*border-width: 0   0 1px 1px ;*/
+    top: 13px;
+    left: 13px;
     border-radius: 50%;
-    width: 20px;
-    height: 20px;
-    align-self: center;
-    justify-self: center;
+    width: 30px;
+    height: 30px;
+    /*border: 1px dotted rgba(105, 105, 105, 0.91);*/
     animation: orbit 18.25s linear infinite;
 }
 
-.Moon div {
-    width: 3px;
-    height: 3px;
+#Moon-planet {
+    width: 5px;
+    height: 5px;
     background-color: rgba(105, 105, 105, 0.91);
     border-radius: 50%;
 }
 
-.Mars {
+.Mars-orbit {
     position: absolute;
-    /*border-style: solid;*/
-    /*border-color: transparent transparent transparent white;*/
-    /*border-width: 0   0 1px 1px ;*/
     border-radius: 50%;
-    width: 220px;
-    height: 220px;
+    width: 260px;
+    height: 260px;
     align-self: center;
     justify-self: center;
+    border: 1px solid red;
     animation: orbit 34.35s linear infinite;
-    z-index: 4;
 }
 
-.Mars div {
-    width: 15px;
-    height: 15px;
+#Mars-planet {
+    position: absolute;
+    top: 32px;
+    left: 32px;
+    width: 10px;
+    height: 10px;
     background-color: red;
     border-radius: 50%;
 }
 
-.Jupiter {
+.Jupiter-orbit {
     position: absolute;
-    /*border-style: solid;*/
-    /*border-color: transparent transparent transparent white;*/
-    /*border-width: 0   0 1px 1px ;*/
     border-radius: 50%;
-    width: 380px;
-    height: 380px;
+    width: 340px;
+    height: 340px;
     align-self: center;
     justify-self: center;
+    border: 1px solid #c16a30;
     animation: orbit 59.3s linear infinite;
-    z-index: 4;
 }
 
-.Jupiter div {
-    width: 50px;
-    height: 50px;
+#Jupiter-planet {
+    position: absolute;
+    top: 28px;
+    left: 28px;
+    width: 40px;
+    height: 40px;
     background-color: #c16a30;
     border-radius: 50%;
-    border: 10px solid rgba(177, 110, 65, 0.59);
-
 }
 
-.Saturn {
+.Io-orbit {
     position: absolute;
-    /*border-style: solid;*/
-    /*border-color: transparent transparent transparent white;*/
-    /*border-width: 0   0 1px 1px ;*/
+    top: 18px;
+    left: 18px;
     border-radius: 50%;
-    width: 440px;
-    height: 440px;
+    width: 60px;
+    height: 60px;
+    /*border: 1px dotted rgba(105, 105, 105, 0.91);*/
+    animation: orbit 25s linear infinite;
+}
+
+#Io-planet {
+    width: 5px;
+    height: 5px;
+    background-color: rgba(105, 105, 105, 0.91);
+    border-radius: 50%;
+}
+
+.Europe-orbit {
+    position: absolute;
+    top: 14px;
+    left: 14px;
+    border-radius: 50%;
+    width: 68px;
+    height: 68px;
+    /*border: 1px dotted rgba(105, 105, 105, 0.91);*/
+    animation: orbit 35s linear infinite;
+}
+
+#Europe-planet {
+    width: 5px;
+    height: 5px;
+    background-color: rgba(105, 105, 105, 0.91);
+    border-radius: 50%;
+}
+
+.Saturn-orbit {
+    position: absolute;
+    border-radius: 50%;
+    width: 420px;
+    height: 420px;
     align-self: center;
     justify-self: center;
+    border: 1px solid sandybrown;
     animation: orbit 147.3s linear infinite;
-    z-index: 4;
 }
 
-.Saturn div {
-    width: 50px;
-    height: 50px;
+#Saturn-planet {
+    position: absolute;
+    top: 41px;
+    left: 41px;
+    width: 30px;
+    height: 30px;
     background-color: sandybrown;
     border-radius: 50%;
 }
 
-.Uranus {
+.Titan-orbit {
     position: absolute;
-    /*border-style: solid;*/
-    /*border-color: transparent transparent transparent white;*/
-    /*border-width: 0   0 1px 1px ;*/
+    top: 30px;
+    left: 30px;
     border-radius: 50%;
-    width: 550px;
-    height: 550px;
-    align-self: center;
-    justify-self: center;
-    animation: orbit 420s linear infinite;
-    z-index: 4;
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgba(105, 105, 105, 0.91);
+    animation: orbit 35s linear infinite;
 }
 
-.Uranus div {
-    width: 40px;
-    height: 40px;
+#Titan-planet {
+    width: 4px;
+    height: 4px;
+    background-color: rgba(105, 105, 105, 0.91);
+    border-radius: 50%;
+}
+
+.Enceladus-orbit {
+    position: absolute;
+    top: 26px;
+    left: 26px;
+    border-radius: 50%;
+    width: 58px;
+    height: 58px;
+    border: 1px solid rgba(105, 105, 105, 0.91);
+    animation: orbit 25s linear infinite;
+}
+
+#Enceladus-planet {
+    width: 5px;
+    height: 5px;
+    background-color: rgba(105, 105, 105, 0.91);
+    border-radius: 50%;
+}
+
+.Uranus-orbit {
+    position: absolute;
+    border-radius: 50%;
+    width: 530px;
+    height: 530px;
+    align-self: center;
+    justify-self: center;
+    border: 1px solid blueviolet;
+    animation: orbit 280s linear infinite;
+}
+
+#Uranus-planet {
+    position: absolute;
+    top: 62px;
+    left: 62px;
+    width: 25px;
+    height: 25px;
     background-color: blueviolet;
     border-radius: 50%;
 }
 
-.Neptune {
+.Neptune-orbit {
     position: absolute;
-    /*border-style: solid;*/
-    /*border-color: transparent transparent transparent white;*/
-    /*border-width: 0   0 1px 1px ;*/
     border-radius: 50%;
-    width: 630px;
-    height: 630px;
+    width: 560px;
+    height: 560px;
     align-self: center;
     justify-self: center;
-    animation: orbit 820.4s linear infinite;
-    z-index: 4;
+    border: 1px solid deepskyblue;
+    animation: orbit 360s linear infinite;
 }
 
-.Neptune div {
-    width: 40px;
-    height: 40px;
+#Neptune-planet {
+    position: absolute;
+    top: 68px;
+    left: 68px;
+    width: 23px;
+    height: 23px;
     background-color: deepskyblue;
     border-radius: 50%;
 }
-@keyframes orbit{
+
+@keyframes orbit {
     to {
         transform: rotate(360deg);
     }
