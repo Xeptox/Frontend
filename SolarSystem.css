@@ -1,7 +1,7 @@
 
 body {
     position: relative;
-    margin: 0;
+    padding-left: 25vw ;
     background-color: black;
     overflow: hidden;
     justify-content: center;
@@ -9,11 +9,11 @@ body {
 
 .Solar-system {
     position: relative;
-    width: 110vh;
-    height: 110vh;
+    width: 98vh;
+    height: 98vh;
     display: flex;
     border: 2px solid red;
-    background-color: #aeba69;
+    background-color: #ecb89b;
     /*background-image: url("pexels-felix-mittermeier-956981.jpg");*/
     background-size: cover;
     justify-content: center;
