@@ -12,8 +12,8 @@ body {
     width: 98vh;
     height: 98vh;
     display: flex;
-    border: 2px solid red;
-    background-color: #ecb89b;
+    border: 2px solid #230a2f;
+    background-color: #230a2f;
     /*background-image: url("pexels-felix-mittermeier-956981.jpg");*/
     background-size: cover;
     justify-content: center;
@@ -158,11 +158,11 @@ body {
 
 .Io-orbit {
     position: absolute;
-    top: 18px;
-    left: 18px;
+    top: 24px;
+    left: 24px;
     border-radius: 50%;
-    width: 60px;
-    height: 60px;
+    width: 48px;
+    height: 48px;
     /*border: 1px dotted rgba(105, 105, 105, 0.91);*/
     animation: orbit 25s linear infinite;
 }
@@ -176,11 +176,11 @@ body {
 
 .Europe-orbit {
     position: absolute;
-    top: 14px;
-    left: 14px;
+    top: 21px;
+    left: 21px;
     border-radius: 50%;
-    width: 68px;
-    height: 68px;
+    width: 53px;
+    height: 53px;
     /*border: 1px dotted rgba(105, 105, 105, 0.91);*/
     animation: orbit 35s linear infinite;
 }
@@ -215,11 +215,11 @@ body {
 
 .Titan-orbit {
     position: absolute;
-    top: 30px;
-    left: 30px;
+    top: 29px;
+    left: 29px;
     border-radius: 50%;
-    width: 50px;
-    height: 50px;
+    width: 52px;
+    height: 52px;
     border: 1px solid rgba(105, 105, 105, 0.91);
     animation: orbit 35s linear infinite;
 }
@@ -249,6 +249,17 @@ body {
     border-radius: 50%;
 }
 
+#Saturn-ring-1 {
+    position: absolute;
+    top: 32px;
+    left: 32px;
+    border-radius: 50%;
+    width: 46px;
+    height: 46px;
+    border: 1px solid rgba(105, 105, 105, 0.91);
+    animation: orbit 35s linear infinite;
+}
+
 .Uranus-orbit {
     position: absolute;
     border-radius: 50%;
@@ -273,8 +284,8 @@ body {
 .Neptune-orbit {
     position: absolute;
     border-radius: 50%;
-    width: 620px;
-    height: 620px;
+    width: 640px;
+    height: 640px;
     align-self: center;
     justify-self: center;
     border: 1px solid deepskyblue;
@@ -283,8 +294,8 @@ body {
 
 #Neptune-planet {
     position: absolute;
-    top: 77px;
-    left: 77px;
+    top: 79px;
+    left: 79px;
     width: 23px;
     height: 23px;
     background-color: deepskyblue;
