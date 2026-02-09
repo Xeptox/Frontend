@@ -1,5 +1,8 @@
 
 body {
+    background-image: url("pexels-felix-mittermeier-956981.jpg");
+    background-size: cover;
+    background-attachment: fixed;
     position: relative;
     padding-left: 25vw ;
     background-color: black;
@@ -12,9 +15,8 @@ body {
     width: 98vh;
     height: 98vh;
     display: flex;
-    border: 2px solid red;
-    background-color: #ecb89b;
-    /*background-image: url("pexels-felix-mittermeier-956981.jpg");*/
+    background-color: #060d2c;
+
     background-size: cover;
     justify-content: center;
     align-items: center;
@@ -22,10 +24,9 @@ body {
 
 .Sun {
     position: absolute;
-
-    width: 100px;
-    height: 100px;
-    background-color: orange;
+    width: 80px;
+    height: 80px;
+    background-color: #d8a700;
     border-radius: 50%;
     box-shadow: 0 0 3vh white;
     align-self: center;
