@@ -1,0 +1,300 @@
+
+body {
+    /*position: relative;*/
+    display: flex;
+    /*padding-left: 25vw ;*/
+    background-color: black;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+.Solar-system {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-shrink: 2;
+    width: 98vh;
+    height: 98vh;
+    border: 2px solid #230a2f;
+    background-color: #230a2f;
+    /*background-image: url("pexels-felix-mittermeier-956981.jpg");*/
+    background-size: cover;
+}
+
+.Sun {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    border: 2px solid orange;
+    border-radius: 50%;
+    box-shadow: 0 0 3vh white;
+}
+
+.Mercury-orbit {
+    position: absolute;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    border: 1px dotted black;
+    animation: orbit 4.4s linear infinite;
+
+}
+
+#Mercury-planet {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    top: 13px;
+    left: 13px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.Venus-orbit {
+    position: absolute;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 1px solid yellow;
+    animation: orbit 11.25s linear infinite;
+}
+
+#Venus-planet {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 14px;
+    left: 14px;
+    background-color: yellow;
+    border-radius: 50%;
+}
+
+.Earth-orbit {
+    position: absolute;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 1px dotted blue;
+    animation: orbit 18.25s linear infinite;
+}
+
+#Earth-planet {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 16px;
+    height: 16px;
+    background-color: blue;
+    border-radius: 50%;
+}
+
+.Moon-orbit {
+    position: absolute;
+    top: 13px;
+    left: 13px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    /*border: 1px dotted rgba(105, 105, 105, 0.91);*/
+    animation: orbit 18.25s linear infinite;
+}
+
+#Moon-planet {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background-color: rgba(105, 105, 105, 0.91);
+    border-radius: 50%;
+}
+
+.Mars-orbit {
+    position: absolute;
+    border-radius: 50%;
+    width: 260px;
+    height: 260px;
+    border: 1px solid red;
+    animation: orbit 34.35s linear infinite;
+}
+
+#Mars-planet {
+    position: absolute;
+    top: 32px;
+    left: 32px;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.Jupiter-orbit {
+    position: absolute;
+    border-radius: 50%;
+    width: 340px;
+    height: 340px;
+    border: 1px solid #c16a30;
+    animation: orbit 59.3s linear infinite;
+}
+
+#Jupiter-planet {
+    position: absolute;
+    top: 28px;
+    left: 28px;
+    width: 40px;
+    height: 40px;
+    background-color: #c16a30;
+    border-radius: 50%;
+}
+
+.Io-orbit {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    /*border: 1px dotted rgba(105, 105, 105, 0.91);*/
+    animation: orbit 25s linear infinite;
+}
+
+#Io-planet {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background-color: rgba(105, 105, 105, 0.91);
+    border-radius: 50%;
+}
+
+.Europe-orbit {
+    position: absolute;
+    top: 21px;
+    left: 21px;
+    border-radius: 50%;
+    width: 54px;
+    height: 54px;
+    /*border: 1px dotted rgba(105, 105, 105, 0.91);*/
+    animation: orbit 35s linear infinite;
+}
+
+#Europe-planet {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background-color: rgba(105, 105, 105, 0.91);
+    border-radius: 50%;
+}
+
+.Saturn-orbit {
+    position: absolute;
+    border-radius: 50%;
+    width: 420px;
+    height: 420px;
+    border: 1px solid sandybrown;
+    animation: orbit 147.3s linear infinite;
+}
+
+#Saturn-planet {
+    position: absolute;
+    top: 41px;
+    left: 41px;
+    width: 30px;
+    height: 30px;
+    background-color: sandybrown;
+    border-radius: 50%;
+}
+
+.Titan-orbit {
+    position: absolute;
+    top: 29px;
+    left: 29px;
+    border-radius: 50%;
+    width: 52px;
+    height: 52px;
+    border: 1px solid rgba(105, 105, 105, 0.91);
+    animation: orbit 35s linear infinite;
+}
+
+#Titan-planet {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background-color: rgba(105, 105, 105, 0.91);
+    border-radius: 50%;
+}
+
+.Enceladus-orbit {
+    position: absolute;
+    top: 26px;
+    left: 26px;
+    border-radius: 50%;
+    width: 58px;
+    height: 58px;
+    border: 1px solid rgba(105, 105, 105, 0.91);
+    animation: orbit 25s linear infinite;
+}
+
+#Enceladus-planet {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background-color: rgba(105, 105, 105, 0.91);
+    border-radius: 50%;
+}
+
+#Saturn-ring-1 {
+    position: absolute;
+    top: 32px;
+    left: 32px;
+    border-radius: 50%;
+    width: 46px;
+    height: 46px;
+    border: 1px solid rgba(105, 105, 105, 0.91);
+    animation: orbit 35s linear infinite;
+}
+
+.Uranus-orbit {
+    position: absolute;
+    border-radius: 50%;
+    width: 530px;
+    height: 530px;
+    border: 1px solid blueviolet;
+    animation: orbit 280s linear infinite;
+}
+
+#Uranus-planet {
+    position: absolute;
+    top: 62px;
+    left: 62px;
+    width: 25px;
+    height: 25px;
+    background-color: blueviolet;
+    border-radius: 50%;
+}
+
+.Neptune-orbit {
+    position: absolute;
+    border-radius: 50%;
+    width: 640px;
+    height: 640px;
+    border: 1px solid deepskyblue;
+    animation: orbit 360s linear infinite;
+}
+
+#Neptune-planet {
+    flex-shrink: 2;
+    position: absolute;
+    top: 79px;
+    left: 79px;
+    width: 23px;
+    height: 23px;
+    background-color: deepskyblue;
+    border-radius: 50%;
+}
+
+@keyframes orbit {
+    to {
+        transform: rotate(360deg);
+    }
+}
